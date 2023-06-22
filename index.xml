@@ -2,9 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>冷萃舍曲林</title>
-        <link>https://example.com/</link>
+        <link>https://coldbrewsertraline.github.io/</link>
         <description>Recent content on 冷萃舍曲林</description>
         <generator>Hugo -- gohugo.io</generator>
-        <language>en-us</language><atom:link href="https://example.com/index.xml" rel="self" type="application/rss+xml" />
+        <language>en-us</language><atom:link href="https://coldbrewsertraline.github.io/index.xml" rel="self" type="application/rss+xml" />
     </channel>
 </rss>
