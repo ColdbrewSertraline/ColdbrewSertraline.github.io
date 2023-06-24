@@ -17,8 +17,8 @@
 其實以我從零開始的代碼水平，到目前為止做的主要的工作都是在網上查找並進行Copy，最後再根據感覺和部分更新後的版本採取一些查漏補缺措施，所以非常感謝願意把資源公開提供幫助的各位朋友！我能做的只有寫好每次Summary讓或許能看到這篇博客的朋友少走一些彎路。&lt;/p&gt;
 &lt;h2 id=&#34;更新了全站字體&#34;&gt;更新了全站字體&lt;/h2&gt;
 &lt;p&gt;應該沒有誰受得了微軟雅黑吧！所以昨天做完之後就當即決定要換個字體。那麼優先考慮的自然是著名非商用思源宋體，目前看來應用後的整體呈現效果也比較符合預期。
-更換字體參考的代碼來自 **&lt;a class=&#34;link&#34; href=&#34;https://mantyke.icu/posts/2021/f9f0ec87/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;小球飛魚&lt;/a&gt;**站的教程。
+更換字體參考的代碼來自 &lt;strong&gt;&lt;a class=&#34;link&#34; href=&#34;https://mantyke.icu/posts/2021/f9f0ec87/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;小球飛魚&lt;/a&gt;&lt;/strong&gt; 站的教程。
 以及這位站長的主頁已經有了一個相當完備的 &lt;strong&gt;&lt;a class=&#34;link&#34; href=&#34;https://mantyke.icu/posts/2022/stack-theme-mod/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;魔改Stack主題&lt;/a&gt;&lt;/strong&gt; ，如果是新建站，非常推薦直接Fork此處網頁給出倉庫的主題內容！特別感謝這位友友| ᐕ)⁾⁾！&lt;/p&gt;
 &lt;p&gt;這裡順便提一個我在使用&lt;code&gt;Hugo serve -D&lt;/code&gt;命令過程中遇到的問題。我第一次更換全站字體之後，出現了點擊正文後標題與側邊欄字體仍然沒有更改，但實際執行&lt;code&gt;Hugo&lt;/code&gt;建站後網頁的顯示是正常的。目前暫時不清楚是什麼原因。&lt;/p&gt;
@@ -36,7 +36,7 @@
 &lt;br/&gt;
 5.調整標題字號大小。&lt;/p&gt;
 &lt;h2 id=&#34;個人的小結&#34;&gt;個人的小結&lt;/h2&gt;
-&lt;p&gt;請務必記得先閱讀所用主題的官方文檔，可以解決不少問題。其次請記住要在主題的layout或assets或static目錄下先修改才能保證渲染到網頁上生效。最後，基本的Markdown語法還是要掌握的。畢竟，寫博客的本質是寫md文件（這裡不是雙關！&lt;/p&gt;
+&lt;p&gt;請務必記得先閱讀所用主題的官方文檔，可以解決不少問題。其次請記住要在主題的layout或assets目錄下先修改才能保證渲染到網頁上生效。最後，基本的Markdown語法還是要掌握的。畢竟，寫博客的本質是寫md文件（這裡不是雙關！&lt;/p&gt;
 </description>
         </item>
         <item>
