@@ -7,24 +7,24 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
         <lastBuildDate>Sat, 24 Jun 2023 19:34:23 +0800</lastBuildDate><atom:link href="https://coldbrewsertraline.github.io/categories/%E9%9D%9E%E5%BB%BA%E7%AB%99%E6%95%99%E7%A8%8B/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>本站優化記錄串一則</title>
-        <link>https://coldbrewsertraline.github.io/p/%E6%9C%AC%E7%AB%99%E5%84%AA%E5%8C%96%E8%A8%98%E9%8C%84%E4%B8%B2%E4%B8%80%E5%89%87/</link>
+        <title>Stack主題優化記錄串一則</title>
+        <link>https://coldbrewsertraline.github.io/2023/stack%E4%B8%BB%E9%A1%8C%E5%84%AA%E5%8C%96%E8%A8%98%E9%8C%84%E4%B8%B2%E4%B8%80%E5%89%87/</link>
         <pubDate>Sat, 24 Jun 2023 19:34:23 +0800</pubDate>
         
-        <guid>https://coldbrewsertraline.github.io/p/%E6%9C%AC%E7%AB%99%E5%84%AA%E5%8C%96%E8%A8%98%E9%8C%84%E4%B8%B2%E4%B8%80%E5%89%87/</guid>
-        <description>&lt;p&gt;首先必須承認建站這件事只有開始沒有結束。比如此時這個人還在對1.0縫縫補補而不是趕緊去把論文寫掉。但是既然開始了那就先把這件事給做好！所以就簡單回顧一下本次優化的几個主要方向好了。
+        <guid>https://coldbrewsertraline.github.io/2023/stack%E4%B8%BB%E9%A1%8C%E5%84%AA%E5%8C%96%E8%A8%98%E9%8C%84%E4%B8%B2%E4%B8%80%E5%89%87/</guid>
+        <description>&lt;p&gt;首先必須承認建站與維護這件事只有開始沒有結束，比如此時這個人還在對1.0縫縫補補而不是趕緊去把論文寫掉。但是既然開始了那就先把這件事給做好！所以就簡單回顧一下本次優化的几個主要方向好了。
 &lt;br/&gt;
-其實以我從零開始的代碼水平，到目前為止做的主要的工作都是在網上查找並進行Copy，最後再根據感覺和部分更新後的版本採取一些查漏補缺措施，所以非常感謝願意把資源公開提供幫助的各位朋友！我能做的只有寫好每次Summary讓或許能看到這篇博客的朋友少走一些彎路。&lt;/p&gt;
+其實以我從零開始的代碼水平，到目前為止做的主要的工作都是在網上查找並進行Copy，最後再根據感覺和部分更新後的版本採取一些查漏補缺措施，所以非常感謝願意把資源公開提供幫助的各位朋友！我能做的只有寫好每次Summary，或許能讓有機會看到這篇博客的朋友少走一些彎路。&lt;/p&gt;
 &lt;h2 id=&#34;更新了全站字體&#34;&gt;更新了全站字體&lt;/h2&gt;
-&lt;p&gt;應該沒有誰受得了微軟雅黑吧！所以昨天做完之後就當即決定要換個字體。那麼優先考慮的自然是著名非商用思源宋體，目前看來應用後的整體呈現效果也比較符合預期。
+&lt;p&gt;應該沒有誰受得了全站微軟雅黑吧！所以昨天做完1.0版本之後就當即決定要換個字體。那麼優先考慮的自然是著名非商用思源宋體，目前看來應用後的整體呈現效果也比較符合預期。
 更換字體參考的代碼來自 &lt;strong&gt;&lt;a class=&#34;link&#34; href=&#34;https://mantyke.icu/posts/2021/f9f0ec87/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;小球飛魚&lt;/a&gt;&lt;/strong&gt; 站的教程。
 以及這位站長的主頁已經有了一個相當完備的 &lt;strong&gt;&lt;a class=&#34;link&#34; href=&#34;https://mantyke.icu/posts/2022/stack-theme-mod/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;魔改Stack主題&lt;/a&gt;&lt;/strong&gt; ，如果是新建站，非常推薦直接Fork此處網頁給出倉庫的主題內容！特別感謝這位友友| ᐕ)⁾⁾！&lt;/p&gt;
-&lt;p&gt;這裡順便提一個我在使用&lt;code&gt;Hugo serve -D&lt;/code&gt;命令過程中遇到的問題。我第一次更換全站字體之後，出現了點擊正文後標題與側邊欄字體仍然沒有更改，但實際執行&lt;code&gt;Hugo&lt;/code&gt;建站後網頁的顯示是正常的。目前暫時不清楚是什麼原因。&lt;/p&gt;
+    &gt;魔改Stack主題&lt;/a&gt;&lt;/strong&gt; ，如果是即將新建一個博客，非常推薦直接Fork此處網頁給出倉庫的主題內容！特別感謝這位友友| ᐕ)⁾⁾！&lt;/p&gt;
+&lt;p&gt;這裡順便提一個我在使用&lt;code&gt;Hugo serve -D&lt;/code&gt;命令預覽過程中遇到的小bug。第一次更換全站字體之後，預覽界面出現了&lt;strong&gt;點擊正文後標題與側邊欄字體仍然沒有更改&lt;/strong&gt;的問題，但實際執行&lt;code&gt;Hugo&lt;/code&gt;建站後網頁的最終顯示是正常的。目前暫時不清楚是什麼原因。&lt;/p&gt;
 &lt;h2 id=&#34;調整了打開文章頁面的佈局&#34;&gt;調整了打開文章頁面的佈局&lt;/h2&gt;
-&lt;p&gt;原本的主題裡，打開正文後右邊欄就消失了，正文欄會自動補位，看起來一行很長，不太方便，整體效果也不夠美觀。所以此處同樣參考了 &lt;strong&gt;&lt;a class=&#34;link&#34; href=&#34;https://mantyke.icu/posts/2021/f9f0ec87/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;小球飛魚：調整文章界面的顯示樣式&lt;/a&gt;&lt;/strong&gt; ，目前的效果是進入正文後右邊欄仍可正常顯示且能獨立滾動，看起來會比較平衡。&lt;/p&gt;
+&lt;p&gt;原本的Stack主題裡，打開正文後右邊欄就消失了，正文欄會自動補位，看起來一行文字很長，不太方便，整體瀏覽效果也不夠美觀。所以此處同樣參考了 &lt;strong&gt;&lt;a class=&#34;link&#34; href=&#34;https://mantyke.icu/posts/2021/f9f0ec87/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;小球飛魚：調整文章界面的顯示樣式&lt;/a&gt;&lt;/strong&gt; ，目前的效果是進入正文後右邊欄仍可正常顯示且能獨立滾動，在視覺上會比較平衡。&lt;/p&gt;
 &lt;h2 id=&#34;後續的調整方向&#34;&gt;後續的調整方向&lt;/h2&gt;
 &lt;p&gt;1.添加短代碼。
 &lt;br/&gt;
@@ -34,17 +34,19 @@
 &lt;br/&gt;
 4.修改“相關文章”組件的顯示效果。
 &lt;br/&gt;
-5.調整標題字號大小。&lt;/p&gt;
+5.調整標題字號大小。
+&lt;br/&gt;
+6.新增標籤墻。&lt;/p&gt;
 &lt;h2 id=&#34;個人的小結&#34;&gt;個人的小結&lt;/h2&gt;
-&lt;p&gt;請務必記得先閱讀所用主題的官方文檔，可以解決不少問題。其次請記住要在主題的layout或assets目錄下先修改才能保證渲染到網頁上生效。最後，基本的Markdown語法還是要掌握的。畢竟，寫博客的本質是寫md文件（這裡不是雙關！&lt;/p&gt;
+&lt;p&gt;請務必記得先閱讀所用主題的官方文檔，可以解決不少問題。其次請記住要在根目錄下建立layout與assets目錄，在這些目錄下進行修改后才能保證渲染到網頁上生效。最後，基本的Markdown語法還是要掌握的。畢竟，寫博客的本質是寫md文件（這裡不是雙關！&lt;/p&gt;
 </description>
         </item>
         <item>
         <title>嘗試集</title>
-        <link>https://coldbrewsertraline.github.io/p/%E5%98%97%E8%A9%A6%E9%9B%86/</link>
+        <link>https://coldbrewsertraline.github.io/2023/%E5%98%97%E8%A9%A6%E9%9B%86/</link>
         <pubDate>Thu, 22 Jun 2023 18:57:09 +0800</pubDate>
         
-        <guid>https://coldbrewsertraline.github.io/p/%E5%98%97%E8%A9%A6%E9%9B%86/</guid>
+        <guid>https://coldbrewsertraline.github.io/2023/%E5%98%97%E8%A9%A6%E9%9B%86/</guid>
         <description>&lt;blockquote&gt;
     &lt;p&gt;&lt;strong&gt;即使慢，馳而不息，縱令落後，縱令失敗，但一定可以達到他所向往的目標。&lt;/strong&gt;&lt;/p&gt;&lt;span class=&#34;cite&#34;&gt;&lt;span&gt;― &lt;/span&gt;&lt;span&gt;《華蓋集》&lt;/span&gt;&lt;cite&gt;&lt;/cite&gt;&lt;/span&gt;&lt;/blockquote&gt;
 &lt;p&gt;&lt;strong&gt;23.6.22&lt;/strong&gt;
