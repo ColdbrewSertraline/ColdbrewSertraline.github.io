@@ -6,14 +6,44 @@
         <description>Recent content in 非建站教程 on 冷萃舍曲林</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Thu, 22 Jun 2023 18:57:09 +0800</lastBuildDate><atom:link href="https://coldbrewsertraline.github.io/categories/%E9%9D%9E%E5%BB%BA%E7%AB%99%E6%95%99%E7%A8%8B/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sat, 24 Jun 2023 19:34:23 +0800</lastBuildDate><atom:link href="https://coldbrewsertraline.github.io/categories/%E9%9D%9E%E5%BB%BA%E7%AB%99%E6%95%99%E7%A8%8B/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>本站優化記錄串一則</title>
+        <link>https://coldbrewsertraline.github.io/p/%E6%9C%AC%E7%AB%99%E5%84%AA%E5%8C%96%E8%A8%98%E9%8C%84%E4%B8%B2%E4%B8%80%E5%89%87/</link>
+        <pubDate>Sat, 24 Jun 2023 19:34:23 +0800</pubDate>
+        
+        <guid>https://coldbrewsertraline.github.io/p/%E6%9C%AC%E7%AB%99%E5%84%AA%E5%8C%96%E8%A8%98%E9%8C%84%E4%B8%B2%E4%B8%80%E5%89%87/</guid>
+        <description>&lt;p&gt;首先我不得不承認建站這件事只有開始沒有結束。比如此時這個人還在對1.0縫縫補補而不是趕緊去把論文寫掉。但是既然開始了那就先把這件事給做好！所以就簡單summary一下本次優化的几個主要方向好了。其實以我從零開始的代碼水平，主要的工作都是進行查找並Copy，所以先行感謝願意提供幫助的各位朋友！&lt;/p&gt;
+&lt;h2 id=&#34;更新了全站字體&#34;&gt;更新了全站字體&lt;/h2&gt;
+&lt;br/&gt;
+應該沒有誰受得了微軟雅黑吧！所以其實昨天做完之後就決定要換個字體。那麼優先考慮的當然是著名非商用字體思源宋體，目前看來整體的呈現效果也比較符合預期。
+此處的代碼來自 **[小球飛魚](https://mantyke.icu/posts/2021/f9f0ec87/)** 。
+站的教程。這位站長的主頁已經有了一個相當完備的 **[魔改Stack主題](https://mantyke.icu/posts/2022/stack-theme-mod/)** ，如果是新建站，非常推薦直接Fork這個倉庫的主題內容！感謝這位友友| ᐕ)⁾⁾！
+&lt;h2 id=&#34;調整了打開文章頁面的佈局&#34;&gt;調整了打開文章頁面的佈局&lt;/h2&gt;
+&lt;br/&gt;
+原本的主題裡，打開正文後右邊欄就消失了，正文欄會自動補位，看起來一行很長，不太方便，整體效果也不夠美觀。所以在這裡同樣參考了 **[小球飛魚：調整文章界面的顯示樣式](https://mantyke.icu/posts/2021/f9f0ec87/)** 。
+&lt;h2 id=&#34;後續的調整方向&#34;&gt;後續的調整方向&lt;/h2&gt;
+&lt;br/&gt;
+1.添加短代碼。
+&lt;br/&gt;
+2.加入文章最後修改時間。
+&lt;br/&gt;
+3.加入豆瓣鏈接。
+&lt;br/&gt;
+4.修改“相關文章”組件的顯示效果。
+&lt;br/&gt;
+5.調整標題字號大小。
+&lt;h2 id=&#34;個人的小結&#34;&gt;個人的小結&lt;/h2&gt;
+&lt;br/&gt;
+請務必記得先閱讀所用主題的官方文檔，可以解決不少問題。其次請記住要在主題的layout或assets或static目錄下先修改才能保證渲染到網頁上生效。</description>
+        </item>
+        <item>
         <title>嘗試集</title>
         <link>https://coldbrewsertraline.github.io/p/%E5%98%97%E8%A9%A6%E9%9B%86/</link>
         <pubDate>Thu, 22 Jun 2023 18:57:09 +0800</pubDate>
         
         <guid>https://coldbrewsertraline.github.io/p/%E5%98%97%E8%A9%A6%E9%9B%86/</guid>
         <description>&lt;blockquote&gt;
-    &lt;p&gt;&lt;strong&gt;又名計算機技術苦手的三日建站日記。&lt;/strong&gt;&lt;/p&gt;&lt;/blockquote&gt;
+    &lt;p&gt;&lt;strong&gt;即使慢，馳而不息，縱令落後，縱令失敗，但一定可以達到他所向往的目標。&lt;/strong&gt;&lt;/p&gt;&lt;span class=&#34;cite&#34;&gt;&lt;span&gt;― &lt;/span&gt;&lt;span&gt;《華蓋集》&lt;/span&gt;&lt;cite&gt;&lt;/cite&gt;&lt;/span&gt;&lt;/blockquote&gt;
 &lt;p&gt;&lt;strong&gt;23.6.22&lt;/strong&gt;
 &lt;br/&gt;
 17:10 update：推翻半年前（。）所有重來並疊加所有可能有效的解決方式。
@@ -27,8 +57,8 @@
 &lt;p&gt;update：20:56 新增Mastodon主頁鏈接；修改了時間格式。想起自己在摸魚，於是愈發緊張地摸魚。&lt;/p&gt;
 &lt;p&gt;update：21:44 新增加載進度條。雖然不明顯，但是顯得高級了不是嗎（你！
 &lt;br/&gt;
-P.S. 進度條代碼來自 &lt;strong&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.skfwe.cn/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;一不留神的博客&lt;/a&gt;&lt;/strong&gt;。
+P.S. 進度條代碼來自 &lt;em&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.skfwe.cn/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;一不留神的博客&lt;/a&gt;&lt;/em&gt;。
 &lt;br/&gt;
 按：這裡順便解決了如何插入鏈接的問題，是的，寫到這裡站長此前的小白程度已經暴露無遺。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;23.6.23&lt;/strong&gt;
