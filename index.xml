@@ -1,44 +1,44 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title>冷萃舍曲林</title>
+        <title>應損鏡中山</title>
         <link>https://coldbrewsertraline.github.io/</link>
-        <description>Recent content on 冷萃舍曲林</description>
+        <description>Recent content on 應損鏡中山</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
         <lastBuildDate>Sat, 24 Jun 2023 19:34:23 +0800</lastBuildDate><atom:link href="https://coldbrewsertraline.github.io/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>Stack主題優化記錄串一則</title>
-        <link>https://coldbrewsertraline.github.io/2023/stack%E4%B8%BB%E9%A1%8C%E5%84%AA%E5%8C%96%E8%A8%98%E9%8C%84%E4%B8%B2%E4%B8%80%E5%89%87/</link>
+        <title>Stack主题优化记录串一则</title>
+        <link>https://coldbrewsertraline.github.io/2023/stack%E4%B8%BB%E9%A2%98%E4%BC%98%E5%8C%96%E8%AE%B0%E5%BD%95%E4%B8%B2%E4%B8%80%E5%88%99/</link>
         <pubDate>Sat, 24 Jun 2023 19:34:23 +0800</pubDate>
         
-        <guid>https://coldbrewsertraline.github.io/2023/stack%E4%B8%BB%E9%A1%8C%E5%84%AA%E5%8C%96%E8%A8%98%E9%8C%84%E4%B8%B2%E4%B8%80%E5%89%87/</guid>
-        <description>&lt;p&gt;首先必須承認建站與維護這件事只有開始沒有結束，比如此時這個人還在對1.0縫縫補補而不是趕緊去把論文寫掉。但是既然開始了那就先把這件事給做好！所以就簡單回顧一下本次優化的几個主要方向好了。
+        <guid>https://coldbrewsertraline.github.io/2023/stack%E4%B8%BB%E9%A2%98%E4%BC%98%E5%8C%96%E8%AE%B0%E5%BD%95%E4%B8%B2%E4%B8%80%E5%88%99/</guid>
+        <description>&lt;p&gt;首先必须承认建站与维护这件事只有开始没有结束，比如此时这个人还在对1.0缝缝补补而不是赶紧去把论文写掉。但是既然开始了那就先把这件事给做好！所以就简单回顾一下本次优化的几个主要方向好了。
 &lt;br/&gt;
-其實以我從零開始的代碼水平，到目前為止做的主要的工作都是在網上查找並進行Copy，最後再根據感覺和部分更新後的版本採取一些查漏補缺措施，所以非常感謝願意把資源公開提供幫助的各位朋友！我能做的只有寫好每次Summary，或許能讓有機會看到這篇博客的朋友少走一些彎路。&lt;/p&gt;
-&lt;h2 id=&#34;更新了全站字體&#34;&gt;更新了全站字體&lt;/h2&gt;
-&lt;p&gt;應該沒有誰受得了全站微軟雅黑吧！所以昨天做完1.0版本之後就當即決定要換個字體。那麼優先考慮的自然是著名非商用思源宋體，目前看來應用後的整體呈現效果也比較符合預期。
-更換字體參考的代碼來自 &lt;strong&gt;&lt;a class=&#34;link&#34; href=&#34;https://mantyke.icu/posts/2021/f9f0ec87/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;小球飛魚&lt;/a&gt;&lt;/strong&gt; 站的教程。
-以及這位站長的主頁已經有了一個相當完備的 &lt;strong&gt;&lt;a class=&#34;link&#34; href=&#34;https://mantyke.icu/posts/2022/stack-theme-mod/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;魔改Stack主題&lt;/a&gt;&lt;/strong&gt; ，如果是即將新建一個博客，非常推薦直接Fork此處網頁給出倉庫的主題內容！特別感謝這位友友| ᐕ)⁾⁾！&lt;/p&gt;
-&lt;p&gt;這裡順便提一個我在使用&lt;code&gt;Hugo serve -D&lt;/code&gt;命令預覽過程中遇到的小bug。第一次更換全站字體之後，預覽界面出現了&lt;strong&gt;點擊正文後標題與側邊欄字體仍然沒有更改&lt;/strong&gt;的問題，但實際執行&lt;code&gt;Hugo&lt;/code&gt;建站後網頁的最終顯示是正常的。目前暫時不清楚是什麼原因。&lt;/p&gt;
-&lt;h2 id=&#34;調整了打開文章頁面的佈局&#34;&gt;調整了打開文章頁面的佈局&lt;/h2&gt;
-&lt;p&gt;原本的Stack主題裡，打開正文後右邊欄就消失了，正文欄會自動補位，看起來一行文字很長，不太方便，整體瀏覽效果也不夠美觀。所以此處同樣參考了 &lt;strong&gt;&lt;a class=&#34;link&#34; href=&#34;https://mantyke.icu/posts/2021/f9f0ec87/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;小球飛魚：調整文章界面的顯示樣式&lt;/a&gt;&lt;/strong&gt; ，目前的效果是進入正文後右邊欄仍可正常顯示且能獨立滾動，在視覺上會比較平衡。&lt;/p&gt;
-&lt;h2 id=&#34;後續的調整方向&#34;&gt;後續的調整方向&lt;/h2&gt;
-&lt;p&gt;1.添加短代碼。
+其实以我从零开始的代码水平，到目前为止做的主要的工作都是在网上查找并进行Copy，最后再根据感觉和部分更新后的版本采取一些查漏补缺措施，所以非常感谢愿意把资源公开提供帮助的各位朋友！我能做的只有写好每次Summary，提供一些我自己在建站过程中或许能让有机会看到这篇博客的朋友少走一些弯路。&lt;/p&gt;
+&lt;h2 id=&#34;更新了全站字体&#34;&gt;更新了全站字体&lt;/h2&gt;
+&lt;p&gt;应该没有谁受得了全站微软雅黑吧！所以昨天做完1.0版本之后就当即决定要换个字体。那么优先考虑的自然是著名非商用思源宋体，目前看来应用后的整体呈现效果也比较符合预期。
+更换字体参考的代码来自 &lt;strong&gt;&lt;a class=&#34;link&#34; href=&#34;https://mantyke.icu/posts/2021/f9f0ec87/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;小球飞鱼&lt;/a&gt;&lt;/strong&gt; 站的教程。
+以及这位站长的主页已经推出了一个相当完备的 &lt;strong&gt;&lt;a class=&#34;link&#34; href=&#34;https://mantyke.icu/posts/2022/stack-theme-mod/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;魔改Stack主题&lt;/a&gt;&lt;/strong&gt; ，如果是即将新建一个博客，非常推荐直接Fork此处网页给出仓库的主题内容；即是已经套用了原来的Stack主题，也可以根据代码库给出的参数进行一些个性化调整。特别感谢这位友友| ᐕ)⁾⁾！&lt;/p&gt;
+&lt;p&gt;这里顺便提一个我在使用 &lt;code&gt;Hugo serve -D&lt;/code&gt; 命令预览过程中遇到的小bug。第一次更换全站字体之后，预览界面出现了&lt;strong&gt;点击正文后标题与侧边栏字体仍然没有更改&lt;/strong&gt;的问题，但实际执行 &lt;code&gt;Hugo&lt;/code&gt; 建站后网页的最终显示是正常的。目前暂时不清楚是什么原因。&lt;/p&gt;
+&lt;h2 id=&#34;调整了打开文章页面的布局&#34;&gt;调整了打开文章页面的布局&lt;/h2&gt;
+&lt;p&gt;原本的Stack主题里，打开正文后右边栏就消失了，正文栏会自动补位，看起来一行文字很长，不太方便，整体浏览效果也不够美观。所以此处同样参考了 &lt;strong&gt;&lt;a class=&#34;link&#34; href=&#34;https://mantyke.icu/posts/2021/f9f0ec87/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;小球飞鱼：调整文章界面的显示样式&lt;/a&gt;&lt;/strong&gt; ，目前的效果是进入正文后右边栏仍可正常显示且能独立滚动，在视觉上会比较平衡。&lt;/p&gt;
+&lt;h2 id=&#34;后续的调整方向&#34;&gt;后续的调整方向&lt;/h2&gt;
+&lt;p&gt;1.添加短代码。
 &lt;br/&gt;
-2.加入文章最後修改時間。
+2.加入文章最后修改时间。
 &lt;br/&gt;
-3.加入豆瓣鏈接。
+3.加入豆瓣链接。
 &lt;br/&gt;
-4.修改“相關文章”組件的顯示效果。
+4.修改“相关文章”组件的显示效果。
 &lt;br/&gt;
-5.調整標題字號大小。
+5.调整标题字号大小。
 &lt;br/&gt;
-6.新增標籤墻。&lt;/p&gt;
-&lt;h2 id=&#34;個人的小結&#34;&gt;個人的小結&lt;/h2&gt;
-&lt;p&gt;請務必記得先閱讀所用主題的官方文檔，可以解決不少問題。其次請記住要在根目錄下建立layout與assets目錄，在這些目錄下進行修改后才能保證渲染到網頁上生效。最後，基本的Markdown語法還是要掌握的。畢竟，寫博客的本質是寫md文件（這裡不是雙關！&lt;/p&gt;
+6.新增标签墻。&lt;/p&gt;
+&lt;h2 id=&#34;个人小结&#34;&gt;个人小结&lt;/h2&gt;
+&lt;p&gt;请务必记得先阅读所用主题的官方文档，可以解决不少问题。其次请记住要在根目录下建立layout与assets目录，在这些目录下进行修改后才能保证渲染到网页上生效。最后，基本的Markdown语法还是要掌握的。毕竟，写博客的本质是写md文件（这里不是双关！&lt;/p&gt;
 </description>
         </item>
         <item>
@@ -48,43 +48,48 @@
         
         <guid>https://coldbrewsertraline.github.io/2023/%E5%98%97%E8%A9%A6%E9%9B%86/</guid>
         <description>&lt;blockquote&gt;
-    &lt;p&gt;&lt;strong&gt;即使慢，馳而不息，縱令落後，縱令失敗，但一定可以達到他所向往的目標。&lt;/strong&gt;&lt;/p&gt;&lt;span class=&#34;cite&#34;&gt;&lt;span&gt;― &lt;/span&gt;&lt;span&gt;《華蓋集》&lt;/span&gt;&lt;cite&gt;&lt;/cite&gt;&lt;/span&gt;&lt;/blockquote&gt;
+    &lt;p&gt;&lt;strong&gt;即使慢，馳而不息，縱令落後，縱令失敗，但一定可以達到他所向往的目標。&lt;/strong&gt;&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;&lt;strong&gt;23.6.22&lt;/strong&gt;
 &lt;br/&gt;
-17:10 update：推翻半年前（。）所有重來並疊加所有可能有效的解決方式。
+17:10 update：打開半年前（。）下載的Hugo確認了之前關聯的數據庫還存活。
 &lt;br/&gt;
-按：既然提到了半年前就不得不說一下，看到這裡的友友如果有建站的想法請務必不要遺漏生成SSH密鑰這個步驟。&lt;/p&gt;
-&lt;p&gt;update：18:22 嘗試修改了頭像；刪除GitHub鏈接（畢竟也沒有什麼拿的出手的東西）；新增Twitter主頁鏈接。
+按：既然提到了半年前就不得不說一下，看到這裡的友友如果有建站的想法請務必不要遺漏&lt;strong&gt;生成SSH密鑰&lt;/strong&gt;這個步驟，部分教程裏可能不會提到這點，但非常關鍵。
+&lt;br/&gt;
+18:22 update：嘗試修改了頭像；刪除GitHub鏈接（畢竟也沒有什麼拿的出手的東西）；新增Twitter主頁鏈接。
 &lt;br/&gt;
 讓我們看看這篇文章能否成功推送！
 &lt;br/&gt;
-按：到這裡已經可以判斷是哪裡出錯了，答案是Markdown文件裡draft沒有設置為false或直接刪除。&lt;/p&gt;
-&lt;p&gt;update：20:56 新增Mastodon主頁鏈接；修改了時間格式。想起自己在摸魚，於是愈發緊張地摸魚。&lt;/p&gt;
-&lt;p&gt;update：21:44 新增加載進度條。雖然不明顯，但是顯得高級了不是嗎（你！
-P.S. 進度條代碼來自 &lt;strong&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.skfwe.cn/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;一不留神的博客&lt;/a&gt;&lt;/strong&gt;。
+按：到現在終於發現是什麼地方出錯了，答案是post文件的&lt;code&gt;draft&lt;/code&gt;沒有設置為&lt;code&gt;false&lt;/code&gt;（後來知道了其實可以直接刪掉這行）。
 &lt;br/&gt;
-按：這裡順便解決了如何插入鏈接的問題，是的，寫到這裡站長此前的小白程度已經暴露無遺。&lt;/p&gt;
+20:56 update：新增Mastodon主頁鏈接；修改了時間格式。想起自己在摸魚，於是愈發緊張地摸魚。
+&lt;br/&gt;
+21:44 update：新增加載進度條。雖然不明顯，但是讓網站仿佛高級了不是嗎（你！&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;23.6.23&lt;/strong&gt;
 &lt;br/&gt;
-終於下定決心買了新的域名。雖然沒搞清楚續費和一次性付款差很多這件事，感覺虧了（望天）。這個大概也會出現在踩坑教程裡面吧。&lt;/p&gt;
-&lt;p&gt;update：22:10 整合了此前基本用於預覽的首篇文章，做一個好的HelloWorld。&lt;/p&gt;
-&lt;p&gt;update：23:23 今天差不多就是這樣！因為已經可以作為一個相對完備的個站運行了。明天必須要開始論文補完計劃（扶額，之後的更新就不算做建站流程了，應該會考慮放進優化欄目。&lt;/p&gt;
-&lt;p&gt;最後，感謝你看到這裡(=^-ω-^=)，祝你今天愉快！
-&lt;br/&gt;&lt;/p&gt;
+終於下定決心買了新的域名。雖然沒搞清楚續費和一次性付款差很多這件事，感覺虧了（望天）。這個大概也會出現在踩坑教程裏面吧。
+&lt;br/&gt;
+22:10 update：整合了此前基本用於預覽的首篇文章，做一個好的HelloWorld。
+&lt;br/&gt;
+23:23 update：今天差不多就是這樣！因為已經可以作為一個相對完備的個站運行了。明天必須要開始論文補完計劃（扶額，之後的維護更新就不算做建站流程，應該會考慮放進優化欄目。&lt;/p&gt;
+&lt;p&gt;感謝你看到最後(=^-ω-^=)，祝你今天愉快！&lt;/p&gt;
 </description>
         </item>
         <item>
         <title>关于</title>
-        <link>https://coldbrewsertraline.github.io/%E5%85%B3%E4%BA%8E/</link>
+        <link>https://coldbrewsertraline.github.io/about/</link>
         <pubDate>Wed, 21 Jun 2023 00:00:00 +0800</pubDate>
         
-        <guid>https://coldbrewsertraline.github.io/%E5%85%B3%E4%BA%8E/</guid>
+        <guid>https://coldbrewsertraline.github.io/about/</guid>
         <description>&lt;h2 id=&#34;關於站長&#34;&gt;關於站長&lt;/h2&gt;
-&lt;p&gt;通常是一隻藍白貓，頭像與本人無關，請勿據此揣測站長形態。&lt;/p&gt;
+&lt;p&gt;通常是一隻以大量紙張為食的藍白短毛貓。
+&lt;br/&gt;
+主業摸魚，副業Word女工。&lt;/p&gt;
 &lt;h2 id=&#34;您將在本站看到&#34;&gt;您將在本站看到&lt;/h2&gt;
-&lt;p&gt;本頁面將隨機放送書影音游寫紙趕工摸魚等各類生活方式，不定期掉落非實用類教程與非可食用資源，感謝您的關注！&lt;/p&gt;
-&lt;p&gt;長期歡迎友鏈交換XDDDD&lt;/p&gt;
+&lt;p&gt;本頁面將不定期放送書影音游觀劇趕工摸魚等各類生活方式，偶爾掉落非實用類教程與資源，感謝您的訂閱！
+&lt;br/&gt;
+因站長使用習慣，本站默認語言可能在繁簡之間隨機切換。
+&lt;br/&gt;
+長期歡迎友鏈交換(=^-ω-^=)&lt;/p&gt;
 &lt;hr&gt;
 </description>
         </item>
