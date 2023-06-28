@@ -411,15 +411,49 @@
         background-color: var(--card-background);
         border-radius: var(--card-border-radius);
         box-shadow: var(--shadow-l1);
-        padding: var(--card-padding);
+        padding: 3%; 
         --waline-font-size: var(--article-font-size);
     }
     .waline-container .wl-count {
         color: var(--card-text-color-main);
     }
+
+       
+   :root{
+       --waline-theme-color: #34495e;  
+       --waline-active-color: #bababa;  
+       --waline-badge-color: #34495e;  
+       --waline-avatar-size: 5rem;
+       --waline-dark-grey: #34495e;  
+   }
+
+      
+   :root[data-scheme="dark"] {
+       --waline-theme-color: #acc6e0;
+       --waline-white: #34495e;  
+       --waline-active-color: #8ab1d8;
+       --waline-light-grey: #666;
+       --waline-dark-grey: #acc6e0;  
+       --waline-badge-color: #acc6e0;
+
+        
+       --waline-text-color: rgba(255, 255, 255, 0.7);
+       --waline-bgcolor: #515151;
+       --waline-bgcolor-light: #66696b; 
+       --waline-border-color: #9B9C9C;
+       --waline-disable-bgcolor: #444;
+       --waline-disable-color: #272727;
+
+        
+       --waline-bq-color:  #9B9C9C;  
+
+        
+       --waline-info-bgcolor: #acc6e0;
+       --waline-info-color: #9B9C9C;
+   }
 </style><script>
     
-    Waline.init({"dark":"html[data-scheme=\"dark\"]","el":"#waline","emoji":["https://cdn.jsdelivr.net/gh/walinejs/emojis@1.0.0/tw-emoji","https://cdn.jsdelivr.net/gh/walinejs/emojis@1.0.0/alus"],"lang":"zh-cn","locale":{"admin":"Admin","placeholder":"請友善使用評論功能(=´ω`=)"},"requiredMeta":["name","email"],"serverURL":"https://waline-for-coldbrewstl.vercel.app/"});
+    Waline.init({"dark":"html[data-scheme=\"dark\"]","el":"#waline","emoji":["https://cdn.jsdelivr.net/gh/walinejs/emojis@1.0.0/alus","https://cdn.jsdelivr.net/gh/norevi/waline-blobcatemojis@1.0/blobs"],"lang":"zh-cn","locale":{"admin":"博主","placeholder":"默認匿名，暱稱、郵箱與網址均為選填項。請友善使用評論功能(=´ω`=)~"},"login":"enable","pageSize":10,"serverURL":"https://waline-for-coldbrewstl.vercel.app/"});
 </script>
 
     
