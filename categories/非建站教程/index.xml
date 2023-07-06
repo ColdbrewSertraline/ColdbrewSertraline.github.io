@@ -8,15 +8,15 @@
         <language>en-us</language>
         <lastBuildDate>Sat, 24 Jun 2023 19:34:23 +0800</lastBuildDate><atom:link href="https://coldbrewsertraline.github.io/categories/%E9%9D%9E%E5%BB%BA%E7%AB%99%E6%95%99%E7%A8%8B/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Stack主题优化记录串一则</title>
-        <link>https://coldbrewsertraline.github.io/2023/stack%E4%B8%BB%E9%A2%98%E4%BC%98%E5%8C%96%E8%AE%B0%E5%BD%95%E4%B8%B2%E4%B8%80%E5%88%99/</link>
+        <link>https://coldbrewsertraline.github.io/2023/improvement/</link>
         <pubDate>Sat, 24 Jun 2023 19:34:23 +0800</pubDate>
         
-        <guid>https://coldbrewsertraline.github.io/2023/stack%E4%B8%BB%E9%A2%98%E4%BC%98%E5%8C%96%E8%AE%B0%E5%BD%95%E4%B8%B2%E4%B8%80%E5%88%99/</guid>
-        <description>&lt;p&gt;首先必须承认建站与维护这件事只有开始没有结束，比如此时这个人还在对1.0缝缝补补而不是赶紧去把论文写掉。但是既然开始了那就先把这件事给做好！所以就简单回顾一下本次优化的几个主要方向好了。
+        <guid>https://coldbrewsertraline.github.io/2023/improvement/</guid>
+        <description>&lt;p&gt;首先必须承认，建站与维护这件事只有开始没有结束，比如此时这个人还在对1.0缝缝补补而不是赶紧去把论文写掉。但是既然开始了那就先把这件事给做好！所以就简单回顾一下本次优化的几个主要方向好了。
 &lt;br/&gt;
-其实以我从零开始的代码水平，到目前为止做的主要的工作都是在网上查找并进行Copy，最后再根据感觉和部分更新后的版本采取一些查漏补缺措施，所以非常感谢愿意把资源公开提供帮助的各位朋友！我能做的只有写好每次Summary，框架或许能让有机会看到这篇博客的朋友少走一些弯路。&lt;/p&gt;
+其实以我从零开始的代码水平，到目前为止做的主要的工作都是在网上查找并进行Copy，最后再根据感觉和部分更新后的版本采取一些查漏补缺措施，所以非常感谢愿意把资源公开提供帮助的各位朋友！我能做的只有写好每次Summary，或许能让有机会看到这篇博客的朋友少走一些弯路。&lt;/p&gt;
 &lt;h2 id=&#34;更新了全站字体&#34;&gt;更新了全站字体&lt;/h2&gt;
-&lt;p&gt;应该没有谁受得了全站微软雅黑吧！所以昨天做完1.0版本之后就当即决定要换个字体。那么优先考虑的自然是著名非商用思源宋体，目前看来应用后的整体呈现效果也比较符合预期。&lt;br/&gt;
+&lt;p&gt;应该没有谁受得了全站微软雅黑吧！所以昨天做完1.0版本之后就当即决定要换个字体。那么优先考虑当然是著名非商用思源宋体，目前看来应用后的整体呈现效果也比较符合预期。&lt;br/&gt;
 更换字体参考的代码来自 &lt;strong&gt;&lt;a class=&#34;link&#34; href=&#34;https://mantyke.icu/posts/2021/f9f0ec87/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;小球飞鱼&lt;/a&gt;&lt;/strong&gt; 站的教程。以及这位站长的主页已经推出了一个相当完备的 &lt;strong&gt;&lt;a class=&#34;link&#34; href=&#34;https://mantyke.icu/posts/2022/stack-theme-mod/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;魔改Stack主题&lt;/a&gt;&lt;/strong&gt; ，如果是即将新建一个博客，非常推荐直接Fork此处网页给出仓库的主题内容；即是已经套用了原来的Stack主题，也可以根据代码库给出的参数进行一些个性化调整。特别感谢这位友友| ᐕ)⁾⁾！&lt;/p&gt;
@@ -50,17 +50,17 @@
 &lt;br/&gt;
 17:10 update：打開半年前（。）下載的Hugo確認了之前關聯的數據庫還存活。
 &lt;br/&gt;
-按：既然提到了半年前就不得不說一下，看到這裡的友友如果有建站的想法請務必不要遺漏&lt;strong&gt;生成SSH密鑰&lt;/strong&gt;這個步驟，部分教程裏可能不會提到這點，但非常關鍵。
+按：既然提到了半年前就不得不說一下，看到這裡的友友如果有建站的想法請務必不要遺漏生成SSH密鑰這個步驟，部分教程裏可能不會提到這點，但非常關鍵。
 &lt;br/&gt;
 18:22 update：嘗試修改了頭像；刪除GitHub鏈接（畢竟也沒有什麼拿的出手的東西）；新增Twitter主頁鏈接。
 &lt;br/&gt;
 讓我們看看這篇文章能否成功推送！
 &lt;br/&gt;
-按：到現在終於發現是什麼地方出錯了，答案是post文件的&lt;code&gt;draft&lt;/code&gt;沒有設置為&lt;code&gt;false&lt;/code&gt;（後來知道了其實可以直接刪掉這行）。
+按：到現在終於發現是什麼地方出錯了，答案是post文件的&lt;code&gt;draft&lt;/code&gt;沒有設置為&lt;code&gt;false&lt;/code&gt;（後來又知道了其實可以直接刪掉這行……）。
 &lt;br/&gt;
 20:56 update：新增Mastodon主頁鏈接；修改了時間格式。想起自己在摸魚，於是愈發緊張地摸魚。
 &lt;br/&gt;
-21:44 update：新增加載進度條。雖然不明顯，但是讓網站仿佛高級了不是嗎（你！&lt;/p&gt;
+21:44 update：新增加載進度條。雖然不太明顯，但是讓網站仿佛高級了不是嗎（你！&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;23.6.23&lt;/strong&gt;
 &lt;br/&gt;
 終於下定決心買了新的域名。雖然沒搞清楚續費和一次性付款差很多這件事，感覺虧了（望天）。這個大概也會出現在踩坑教程裏面吧。
