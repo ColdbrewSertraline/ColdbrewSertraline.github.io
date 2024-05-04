@@ -79,12 +79,14 @@
 .gallery-item {
   flex: 0 0 calc(33.33% - 10px); /* 三列并排，减去间距 */
   margin-bottom: 10px; /* 图片间距 */
+  margin-right: -2px; 
+  margin-left: -2px; 
   position: relative;
   overflow: hidden;
 }
 
 .gallery-item img {
-  width: 100%;
+  width: 60%; 
   height: auto;
   display: block;
   border-radius: 10px; /* 圆角半径 */
@@ -95,7 +97,7 @@
   position: absolute;
   bottom: 0;
   left: 0;
-  width: 100%;
+  width: 60%;
   background-color: rgba(0, 0, 0, 0.7); /* 背景颜色 */
   color: white;
   padding: 5px;
@@ -146,6 +148,8 @@
 .gallery-item {
   flex: 0 0 calc(33.33% - 10px); /* 三列并排，减去间距 */
   margin-bottom: 10px; /* 图片间距 */
+  margin-right: -2px; 
+  margin-left: -2px; 
   position: relative;
   overflow: hidden;
 }
