@@ -12,42 +12,79 @@
         <pubDate>Mon, 03 Jul 2023 23:22:20 +0800</pubDate>
         
         <guid>https://coldbrewsertraline.github.io/2023/june/</guid>
-        <description>&lt;p&gt;因為最早想著作為一個計算機技術苦手，大概是寫不出什麼「教程」一類的東西來的。沒想到這些天也陸陸續續地總結了一些建站和維護經驗，順便攢了篇主題優化的心得（還沒發……甚至還沒寫完……）。但說到底最初建立個人博客的目的非常樸素，就是覺得動手做一個網站會很有成就感，外加正好也沒有合適的地方存放長篇廢話和照片。無奈半年前我的執行力比現在還低，對著象友的教程一番操作之後就因為SSH密鑰的問題知難而退了。現在好不容易完成站點搭建，剛好也到了這一學年進入尾聲、該寫些什麼的時候了。&lt;/p&gt;
+        <description>&lt;img src="https://coldbrewsertraline.github.io/post/june/pic/cover.jpg" alt="Featured image of post 六月|一度春來，一番花褪" /&gt;&lt;p&gt;因為最早想著作為一個計算機技術苦手，大概是寫不出什麼「教程」一類的東西來的。沒想到這些天也陸陸續續地總結了一些建站和維護經驗，順便攢了篇主題優化的心得（還沒發……甚至還沒寫完……）。但說到底最初建立個人博客的目的非常樸素，就是覺得動手做一個網站會很有成就感，外加正好也沒有合適的地方存放長篇廢話和照片。無奈半年前我的執行力比現在還低，對著象友的教程一番操作之後就因為SSH密鑰的問題知難而退了。現在好不容易完成站點搭建，剛好也到了這一學年進入尾聲、該寫些什麼的時候了。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;那麼先請諸君看我的六月最新瀑布流照片墻吧！&lt;/strong&gt;&lt;/p&gt;
-&lt;div class=&#34;waterfall&#34;&gt;
-  &lt;div class=&#34;item&#34;&gt;&lt;img src=&#34;pics/1.png&#34; alt=&#34;Image 1&#34;&gt;&lt;/div&gt;
-  &lt;div class=&#34;item&#34;&gt;&lt;img src=&#34;pics/2.png&#34; alt=&#34;Image 2&#34;&gt;&lt;/div&gt;
-  &lt;div class=&#34;item&#34;&gt;&lt;img src=&#34;pics/3.png&#34; alt=&#34;Image 3&#34;&gt;&lt;/div&gt;
-  &lt;div class=&#34;item&#34;&gt;&lt;img src=&#34;pics/4.png&#34; alt=&#34;Image 4&#34;&gt;&lt;/div&gt;
-  &lt;div class=&#34;item&#34;&gt;&lt;img src=&#34;pics/5.png&#34; alt=&#34;Image 5&#34;&gt;&lt;/div&gt;
-  &lt;div class=&#34;item&#34;&gt;&lt;img src=&#34;pics/6.png&#34; alt=&#34;Image 6&#34;&gt;&lt;/div&gt;
-  &lt;div class=&#34;item&#34;&gt;&lt;img src=&#34;pics/11.png&#34; alt=&#34;Image 11&#34;&gt;&lt;/div&gt;
-  &lt;div class=&#34;item&#34;&gt;&lt;img src=&#34;pics/8.png&#34; alt=&#34;Image 8&#34;&gt;&lt;/div&gt;
-  &lt;div class=&#34;item&#34;&gt;&lt;img src=&#34;pics/9.png&#34; alt=&#34;Image 9&#34;&gt;&lt;/div&gt;
-  &lt;div class=&#34;item&#34;&gt;&lt;img src=&#34;pics/7.png&#34; alt=&#34;Image 7&#34;&gt;&lt;/div&gt;
-  &lt;div class=&#34;item&#34;&gt;&lt;img src=&#34;pics/10.png&#34; alt=&#34;Image 10&#34;&gt;&lt;/div&gt;
-  &lt;!-- 更多图片项 --&gt;
-&lt;/div&gt;
-&lt;style&gt;
-.waterfall {
-  column-count: 3; /* 列数 */
-  column-gap: 10px; /* 列间距 */
-}
-
-.item {
-  display: inline-block;
-  width: 100%;
-  margin-bottom: 10px; /* 图片间距 */
-  border-radius: 10px; /* 圆角半径 */
-  box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.5); /* 阴影效果 */
-}
-
-.item img {
-  width: 100%;
-  height: auto;
-  border-radius: 10px; /* 圆角半径，与父容器一致 */
-}
-&lt;/style&gt;
+&lt;p&gt;&lt;gallery&gt;&lt;img src=&#34;https://coldbrewsertraline.github.io/post/june/pic/10.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;img src=&#34;https://coldbrewsertraline.github.io/post/june/pic/2.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;img src=&#34;https://coldbrewsertraline.github.io/post/june/pic/3.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;img src=&#34;https://coldbrewsertraline.github.io/post/june/pic/4.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;img src=&#34;https://coldbrewsertraline.github.io/post/june/pic/5.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;img src=&#34;https://coldbrewsertraline.github.io/post/june/pic/6.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;img src=&#34;https://coldbrewsertraline.github.io/post/june/pic/7.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;img src=&#34;https://coldbrewsertraline.github.io/post/june/pic/8.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;img src=&#34;https://coldbrewsertraline.github.io/post/june/pic/9.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;img src=&#34;https://coldbrewsertraline.github.io/post/june/pic/1.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/gallery&gt;&lt;/p&gt;
 &lt;h2 id=&#34;夏天紫陽花&#34;&gt;夏天，紫陽花&lt;/h2&gt;
 &lt;h3 id=&#34;花的精神狀態比我好多了&#34;&gt;花的精神狀態比我好多了&lt;/h3&gt;
 &lt;p&gt;花是五月底買的，當然是為了紀念某個眾所周知的日子。本身對它的期待是「嗯，撐過六月初就是勝利！」，沒想到一直開到我考完期末，中間一直容光煥發。其實月初還有個去前金陵協和神學院看繡球花的計劃，因為今次寫學年論文的緣故，對神學院甚至隱約抱著朝聖心態，最後輸給梅雨季這個淋淋漓漓的天氣。畢竟城郊進一趟市中心真的太遠了！想當年胡師居然有心從頤和路前去燕子磯觀潮，實在是很偉大……&lt;br&gt;

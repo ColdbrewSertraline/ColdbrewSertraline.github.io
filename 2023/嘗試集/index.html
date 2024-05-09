@@ -5,11 +5,11 @@
 
 <link rel='canonical' href='https://coldbrewsertraline.github.io/2023/%E5%98%97%E8%A9%A6%E9%9B%86/'>
 
-<link rel="stylesheet" href="/scss/style.min.c284c0c12102b3e497d4e9079fff1f7f7548412d852458bad88f7f31a3fc022f.css"><meta property='og:title' content='嘗試集'>
+<link rel="stylesheet" href="/scss/style.min.8bcf4b5f330b622e8983371495c3fc46f6101b8a8cbecb69dce3c58c235fa511.css"><meta property='og:title' content='嘗試集'>
 <meta property='og:description' content='又名計算機技術苦手的两日建站日記。'>
 <meta property='og:url' content='https://coldbrewsertraline.github.io/2023/%E5%98%97%E8%A9%A6%E9%9B%86/'>
 <meta property='og:site_name' content='應損鏡中山'>
-<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='技術苦手' /><meta property='article:published_time' content='2023-06-22T18:57:09&#43;08:00'/><meta property='article:modified_time' content='2023-07-06T17:58:44&#43;08:00'/><meta property='og:image' content='https://coldbrewsertraline.github.io/img/favicon.png' />
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='技術苦手' /><meta property='article:published_time' content='2023-06-22T18:57:09&#43;08:00'/><meta property='article:modified_time' content='2024-05-07T20:59:48&#43;08:00'/><meta property='og:image' content='https://coldbrewsertraline.github.io/img/favicon.png' />
 <meta name="twitter:title" content="嘗試集">
 <meta name="twitter:description" content="又名計算機技術苦手的两日建站日記。"><meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:image" content='https://coldbrewsertraline.github.io/img/favicon.png' />
@@ -31,7 +31,34 @@
   }());
 </script>
 
-  
+<style>
+  .gallery-photos{width:100%;break-inside: avoid;margin-bottom: 10px;}
+  .gallery-photo{width:33.3%;position: relative;padding:0px 4px 0px 4px;visibility: hidden;overflow: hidden;}
+  .gallery-photo.visible{visibility: visible;}
+  .gallery-photo img{width: 100%;height: 100%;object-fit: cover;border-radius: 5px;box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);}
+  @media screen and (min-width: 1200x) {
+    .gallery-photo{
+    width: 100%;
+    columns: 3;
+    column-gap: 20px;
+    }
+  }
+  @media screen and (min-width: 860px) and (max-width: 1323.98px) {
+    .gallery-photo{    
+    width: 100%;
+    columns: 2;
+    column-gap: 20px;}
+  }
+  @media screen and (max-width: 860px) {
+    .gallery-photo{    
+    width: 100%;
+    columns: 1;}
+  }
+  @media (max-width: 767.98px){
+    .photo-time{display: none;}
+  }
+</style>
+
     </head>
     <body class="
     article-page
@@ -212,6 +239,26 @@
             </a>
         </li>
         
+        
+
+        <li >
+            <a href='/links/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-link" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5" />
+  <path d="M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5" />
+</svg>
+
+
+
+                
+                <span>友链</span>
+            </a>
+        </li>
+        
 
         <div class="menu-bottom-section">
             
@@ -242,12 +289,11 @@
 <main class="main full-width">
     <article class="main-article">
     <header class="article-header">
-
     <div class="article-details">
     
     <header class="article-category">
         
-            <a href="/categories/%E9%9D%9E%E5%BB%BA%E7%AB%99%E6%95%99%E7%A8%8B/" >
+            <a href="/categories/%E9%9D%9E%E5%BB%BA%E7%AB%99%E6%95%99%E7%A8%8B/" style="background-color: #C97586; color: #fff;">
                 非建站教程
             </a>
         
@@ -308,8 +354,11 @@
     <section class="article-content">
     
     
-    <blockquote>
-    <p><strong>即使慢，馳而不息，縱令落後，縱令失敗，但一定可以達到他所向往的目標。</strong></p></blockquote>
+    
+
+<blockquote class="quote">
+        <p><strong>即使慢，馳而不息，縱令落後，縱令失敗，但一定可以達到他所向往的目標。</strong></p></blockquote> 
+
 <p><strong>23.6.22</strong>
 <br/>
 17:10 update：打開半年前（。）下載的Hugo確認了之前關聯的數據庫還存活。
@@ -368,7 +417,7 @@
 
 
         <span>
-            最后更新于 Jul 06, 2023 17:58 CST
+            最后更新于 May 07, 2024 20:59 CST
         </span>
     </section></footer>
 
@@ -440,14 +489,14 @@
 
         
        --waline-text-color: rgba(255, 255, 255, 0.7);
-       --waline-bgcolor: #515151;
-       --waline-bgcolor-light: #66696b; 
+       --waline-bgcolor: #444;
+       --waline-bgcolor-light: transparent; 
        --waline-border-color: transparent;
        --waline-disable-bgcolor: #444;
        --waline-disable-color: #272727;
 
         
-       --waline-bq-color:  #9B9C9C;  
+       --waline-bq-color:  #272727;  
 
         
        --waline-info-bgcolor: #acc6e0;
@@ -488,7 +537,33 @@
           pangu.spacingPage();
         });
     </script>
+
     
+    <section class="totalcount">
+    
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+    发表了5篇文章 · 
+    总计13.64k字
+    </section>
+
 </footer>
 
 
@@ -615,12 +690,12 @@
 
     <div class="tagCloud-tags">
         
-            <a href="/categories/%E4%B8%8A%E5%AD%B8%E8%A8%98/" class="font_size_2">
-                上學記
+            <a href="/categories/%E8%B2%93%E7%9A%84%E7%94%9F%E6%B4%BB%E6%84%8F%E8%A6%8B/" class="font_size_3">
+                貓的生活意見
             </a>
         
-            <a href="/categories/%E8%B2%93%E7%9A%84%E7%94%9F%E6%B4%BB%E6%84%8F%E8%A6%8B/" class="font_size_2">
-                貓的生活意見
+            <a href="/categories/%E4%B8%8A%E5%AD%B8%E8%A8%98/" class="font_size_2">
+                上學記
             </a>
         
             <a href="/categories/%E9%9D%9E%E5%BB%BA%E7%AB%99%E6%95%99%E7%A8%8B/" class="font_size_2">
@@ -760,5 +835,46 @@
     });
 </script>
 
+
+<script src="https://immmmm.com/waterfall.min.js"></script>
+<script src="https://immmmm.com/imgStatus.min.js"></script>
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+  
+  var photosAll = document.getElementsByTagName('gallery') || '';
+  if(photosAll){
+    for(var i=0;i < photosAll.length;i++){
+      photosAll[i].innerHTML = '<div class="gallery-photos">'+photosAll[i].innerHTML+'</div>'
+      var photosIMG = photosAll[i].getElementsByTagName('img')
+      for(var j=0;j < photosIMG.length;j++){
+        wrap(photosIMG[j], document.createElement('div'));
+      }
+    }
+  }
+  function wrap(el, wrapper) {
+    wrapper.className = "gallery-photo";
+    el.parentNode.insertBefore(wrapper, el);
+    wrapper.appendChild(el);
+  }
+  
+  let galleryPhotos = document.querySelectorAll('.gallery-photos') || ''
+  if(galleryPhotos){
+    imgStatus.watch('.gallery-photo img', function(imgs) {
+      if(imgs.isDone()){
+        for(var i=0;i < galleryPhotos.length;i++){
+          waterfall(galleryPhotos[i]);
+          let pagePhoto = galleryPhotos[i].querySelectorAll('.gallery-photo');
+          for(var j=0;j < pagePhoto.length;j++){pagePhoto[j].className += " visible"};
+        }
+      }
+    });
+    window.addEventListener('resize', function () {
+      for(var i=0;i < galleryPhotos.length;i++){
+        waterfall(galleryPhotos[i]);
+      }
+    });
+  }
+});
+</script>
     </body>
 </html>
